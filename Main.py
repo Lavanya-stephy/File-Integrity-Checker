@@ -16,6 +16,7 @@ if val==1 :
     print("Baseline created successfully")
 
 elif val==2:
+    print("\nVerifying the integrity of yours files")
     integrity_check.check(folder,files)
     
 

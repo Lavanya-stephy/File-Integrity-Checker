@@ -18,4 +18,8 @@ def check(folder,files):
                 chunk=f.read(4096)
         hash=sha.hexdigest()
         new_hash[file]=hash
+    print("-"*130)
+    print()
     modify.compare_hashes(old_hash,new_hash)
+    print()
+    print("-"*130)
